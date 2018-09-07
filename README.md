@@ -6,14 +6,17 @@ Installed Tensorflow using this https://www.tensorflow.org/install/install_linux
 
 # Input
 
-Train: Four cat and four dog images with corresponding names in the filename
+Model 1:
+Train: Eight cat and Eight dog images with corresponding names in the filename
 
-Test: One cat and one dog image with corresponding names in the filename
+Test: Two cat and Two dog images with corresponding names in the filename
+
+Model 2:
+Train: 100 cat and 100 dog images with corresponding names in the filename
+
+Test: 25 cat and 25 dog images with corresponding names in the filename
+
 
 # Output
 
-Prediction of cat/dog and testing times
-
-test sample 1: cat:0.0 dog:1.0 test_time=0.0513980388641
-
-test sample 2: cat:0.0 dog:1.0 test_time=0.00165700912476
+Test accuracy and train and testing times
